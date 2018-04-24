@@ -8,27 +8,43 @@
 <meta name="author" content="Hege Refsnes">
 
 <title>This is my exercise for html</title>
-<style type="text/css">        
-p {color:red}
+<style type="text/css">
+p {color:blue}
 a {color:red}
-h1 {color:green}
+.myh
+{
+font-family:verdana;
+text-align:center;
+color:#990022;
+}
+#testcss
+{
+text-align:center;
+color:green;
+}
+.right
+{
+text-align:right;
+color:#007788;
+}
 </style>    
 </head>
 
 <!-- 以下是HTML文档主体 -->
-<body style='background-color:'>
+<body>
 
-<h1 style="font-family:verdana;text-align:center;">我是第一个标题</h1>
+<h1 class='myh'>我是第一个标题</h1>
 <hr>
 
-<h2>The second heading</h2>
+<h2 class='right'>The second heading</h2>
 <hr>
 
-<h3>The third heading</h3>
+<h3 class='right'>The third heading</h3>
 <hr>
+
 
 <small>This is the first paragraph.</small><br/>
-<p style="color:white;margin-left:40px;background-color:green;font-family:arial;font-size:40px;">This is the second paragraph.</p>
+<p>This is the second paragraph.</p>
 <p>The <abbr title='World Health Organization'>WHO</abbr> was founded in 1948</p>
 
 <!-- <b>和<strong>效果一样，<b>指粗体，<strong>指体现重要 -->
@@ -95,7 +111,23 @@ Password: <input type="password" name="pwd"><input type="submit" value="Submit">
 </form> 
 
 </div>
- 
+<iframe src="C:/Users/26326/learn-HTML/HTML-Exercise.html" name="iframe"></iframe>
+<p><a href="http://www.w3cschool.cn" target="iframe">W3CSCHOOL.CN</a></p>
+
+<script>
+document.write("<p>This is a paragraph</p>")
+document.getElementById("demo").style.color="#ff0000";
+</script> 
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p>&nbsp</p>
+
+
+
+<b>==</b>
 
 </body>
 
